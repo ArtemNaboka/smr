@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,  
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,  
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend { 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  font-weight: inherit; 
+  font-style: inherit; 
+  font-size: 100%; 
+  outline: 0; 
+  padding: 0; 
+  margin: 0; 
+  border: 0; 
+  } 
+/* remember to define focus styles! */ 
+:focus { 
+  outline: 0; 
+  } 
+body { 
+  background: white; 
+  line-height: 1; 
+  color: black; 
+  } 
+ol, ul { 
+  list-style: none; 
+  } 
+/* tables still need cellspacing="0" in the markup */ 
+table { 
+  border-collapse: separate; 
+  border-spacing: 0; 
+  } 
+caption, th, td { 
+  font-weight: normal; 
+  text-align: left; 
+  } 
+/* remove possible quote marks (") from <q> & <blockquote> */ 
+blockquote:before, blockquote:after, q:before, q:after { 
+  content: ""; 
+  } 
+blockquote, q { 
+  quotes: "" ""; 
+  } 
+
+.head {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.days{
+  display: inline-block;
+  width: 100%;
+}
+
+.day{
+  width: 14.35%;
+  display: inline-block;
+  height: 50px;
+  background-color: #eee;
+  text-align: center;
+  margin: 0 -5px 0 0;
+}
+
+.week1 {
+  display: inline-block;
+  width: 100%;
+}
+
+.number {
+  width: 14.2%;
+  display: inline-block;
+  height: 100px;
+  text-align: center;
+  margin: 0 -5px 0 0;
+}
+#d1 { 
+background-color: #FFBCBC;} 
+#d2 { 
+background-color: #F3BCFF;} 
+#d3 { 
+background-color: #BCC4FF;} 
+#d4 { 
+background-color: #BCFDFF;} 
+#d5 { 
+background-color: #BEFFBC;} 
+#d6 { 
+background-color: #F2FFBC;} 
+#d7 { 
+background-color: #FFD2BC;}
+
+
+#d1:hover{ 
+background-color: #FF5F5F; 
+} 
+#d2:hover{ 
+background-color: #FF5FDD; 
+} 
+#d3:hover{ 
+background-color: #945FFF; 
+} 
+#d4:hover{ 
+background-color: #5FF0FF; 
+} 
+#d5:hover{ 
+background-color: #5FFF87; 
+} 
+#d6:hover{ 
+background-color: #D2FF5F; 
+} 
+#d7:hover { 
+background-color: #FF945F;
+}
+
+
+
+div.week1 p, div.week2 p, div.week3 p, div.week4 p, div.week5 p
+{
+    font-size: 25px;
+}
+
+[name="non"] p
+{
+  opacity: 0.4;
+}
+
+
+img
+{
+  width: 15px;
+  height: 15px;
+
+}
+
+.day p .img
+{
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.number p.img
+{
+  font-size: 20px;
+}
