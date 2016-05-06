@@ -1,0 +1,51 @@
+body
+{
+	
+}
+
+h1, p
+{
+	color: black;
+}
+
+
+div.note
+{
+	position: relative;
+}
+
+.remove
+{
+	margin-left: 90%;
+	
+}
+.edit
+{
+	margin-left: 85%;
+
+}
+
+#menu
+{
+	display: inline-block;
+	position: absolute;
+}
+
+.deleteform
+{
+	position: relative;
+	margin-left: 10px;
+}
+
+.editform
+{
+	position: relative;
+	margin-right: min();
+}
+
+.out
+{
+	margin-left: 7%;
+
+}
+
